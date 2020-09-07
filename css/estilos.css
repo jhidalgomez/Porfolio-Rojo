@@ -1,3 +1,30 @@
+ @media (max-width: 700px) {/* Para mobile */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        background-position-x: 0;
+    }
+}
+@media (max-width: 768px) {/* Para tablet */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -100px;
+        background-position-x: 0;
+    }
+}
+@media (max-width: 1200px) {/* Para monitores mas grandes */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -180px;
+        background-position-x: 0;
+    }
+}
+
+
+
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -44,17 +71,8 @@ nav .CV{
     background-image: url(../images/fondo_inicio.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 81vh;
-    
+    height: 81vh;   
 }
-#sobremi, #proyectos{
-    background-image: url(../images/fondo_sobremi_proyectos.png);
-    background-size: 100%;
-    background-repeat: no-repeat; 
-    height: 81vh; 
-    background-size: cover;
-}
-
 
 /* Contacto */
 #contacto main{
@@ -138,8 +156,14 @@ footer .fa-linkedin-in {
 
 
 
-/** Proyectos **//
-
+/** Proyectos **/
+#sobremi, #proyectos{
+    background-image: url(../images/fondo_sobremi_proyectos.png);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    height: 81vh; 
+    background-size: cover;
+}
 .box-shadow {
     border-radius: 15px;
 }
