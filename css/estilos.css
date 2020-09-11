@@ -58,7 +58,7 @@ nav .CV{
 .CV:hover{
     background-color: #370a6d;
     color:white;
-    text-decoration: underline;
+    text-decoration:none;
     font-size: 15px;
     border-radius: 20px;
     padding: 5px 20px;
@@ -67,16 +67,11 @@ nav .CV{
 .fa-bars:before {
     color: #E20000;
 }
-#inicio{
-    background-image: url(../images/fondo_inicio.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 81vh;   
-}
+
 
 /* Contacto */
 #contacto main{
-    height: 83vh;
+    height: 80vh;
 }
 #contacto{
     background-image: url(../images/fondo-contacto.png);
@@ -107,12 +102,12 @@ button.btn:hover{
 }
 
 
-
 /* Footer */
 footer, footer a {
     color: white;
     font-weight: 100;
     font-size: 14px;
+    margin: 0px;
 }
 footer a:hover{
     text-decoration: underline;
@@ -126,42 +121,69 @@ footer .fa-linkedin-in {
     height: 32px;
     width: 32px;
     text-align: center;
-    padding: 8px 0 0 0;
+    padding: 6px 0 0 0;
     border-radius: 80px;
-    margin: 0 8px;
+    margin: 0 10px;
+}
+footer .fa-github{
+    font-size: 30px;
+    color: white;
 }
 footer .fa-whatsapp{
     color:white;
     background-color:#370a6d ;
-    padding: 15px;
-    font-size: 20px;
+    padding: 18px;
+    font-size: 30px;
     border-radius: 10px 10px 0px 0px;
-    padding-bottom:18px;
+    padding-bottom:13px;
 }
 #proyectos footer, #proyectos footer a {
     color: #E20000;
 }
-footer .fa-linkedin-in {
+#proyectos footer .fa-linkedin-in {
     color: white;
-    background-color: #ff4a49;
+    background-color:#E20000;
     font-size: 20px;
     border: 0px;
     height: 32px;
     width: 32px;
     text-align: center;
-    padding: 8px 0 0 0;
+    padding: 9px 0 0 0;
     border-radius: 80px;
-    margin: 0 8px;
+    margin: 0 10px;
+}
+#proyectos footer .fa-github {
+    font-size: 30px;
+    color: #E20000;
+}
+#sobremi footer, #sobremi footer a {
+    color: #E20000;
+}
+#sobremi footer .fa-linkedin-in {
+    color: white;
+    background-color:#E20000;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 9px 0 0 0;
+    border-radius: 80px;
+    margin: 0 10px;
+}
+#sobremi footer .fa-github {
+    font-size: 30px;
+    color: #E20000;
 }
 
 
 
 /** Proyectos **/
-#sobremi, #proyectos{
+#proyectos{
     background-image: url(../images/fondo_sobremi_proyectos.png);
     background-size: 100%;
     background-repeat: no-repeat; 
-    height: 81vh; 
+    height: 80vh; 
     background-size: cover;
 }
 .box-shadow {
@@ -169,19 +191,14 @@ footer .fa-linkedin-in {
 }
 #proyectos img { 
     width: max-content;
+    height: 177px;
 }
-img {
-    vertical-align: middle;
-    border-style: none;
+p.trabajos{
+    height: 55px !important;
 }
 #proyectos p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-size: 14px;
-    font-weight: 500;
+    height: 105px;
 }
 #proyectos .bg-red {
     background-color: #E20000;
@@ -190,6 +207,9 @@ img {
     color: white;
     font-size:15px ;
     font-weight: 600;
+}
+#proyectos .card{
+
 }
 #proyectos .btn{
     background-color: #E20000;
@@ -203,4 +223,59 @@ img {
     color: #E20000;
     font-size: 10px;
 }
+.color-gradiente {
+    background: rgba(184,37,20,1);
+    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+}
+#proyectos h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px;
+    margin: 0px;  
+}
 
+
+
+/** Sobre mi **/
+#sobremi,{
+    background-image: url(../images/fondo_sobremi_proyectos.png);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    height: 81vh; 
+    background-size: cover;
+}
+.CV{
+    background-color: #E20000;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 100;
+}
+#tecnologias h3{
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+#inicio{
+    background-image: url(../images/fondo_inicio.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 81vh;   
+}
