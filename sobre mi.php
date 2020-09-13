@@ -50,15 +50,20 @@
             <div class="row">
                 <div class="col-sm-5 col-12 mt-4 sobre-mi">
                     <h1 class="mt-sm-4 pb-sm-4">Sobre mí</h1>
-                    <p class="pb-sm-4">Diseñador gráfico capaz de estructurar y ofrecer
+                    <p class="pb-sm-4">Desarrollador y diseñador gráfico capaz de estructurar y ofrecer
                         soluciones creativas, para el desarrollo de proyectos y
-                        o piezas, tanto gráficas como visuales.
+                        piezas gráficas.
                         .</p>
-                    <div class="text-center pb-4 sobre-mi">
-                        <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="files/Jose Hidalgo CV.pdf" class="CV" target="_blank">Descargar mi CV <i class="fas fa-file-download"></i></a>
+                    <div class="row pb-4">
+                        <div class="iconos col-12 text-center col-sm-6">
+                            <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class=" col-12 text-center col-sm-6">
+                            <a href="files/Jose Hidalgo CV.pdf" class="CV" target="_blank">Descargar mi CV <i class="fas fa-file-download"></i></a>
+                        </div>
                     </div>
+
                 </div>
                 <div class="col-sm-3 col-12 mt-4 offset-sm-2">
                     <img src="images/foto.jpg" alt="Jose Hidalgo" title="Jose Hidalgo" class="img-fluid img-circle">
@@ -69,80 +74,80 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="my-sm-5 text-white">Tecnologías de programación</h2>
+                        <h2 class="my-sm-5 mt-2 mb-2 text-white">Tecnologías de programación</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-2 col-6 text-center">
-                        <div class="px-4 py-5 card mx-0 shadow">
+                        <div class="px-4 py-5 mt-2 mb-2 card mx-0 shadow">
                             <h3>HTML 5</h3>
                             <img class="img-fluid d-block mx-auto" width="60" src="https://img.stackshare.io/service/2538/kEpgHiC9.png">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
-                        <div class="px-4 py-5 card mx-0 shadow">
+                        <div class="px-4 py-5 mt-2 mb-2 card mx-0 shadow">
                             <h3>CSS 3</h3>
-                            <img class="img-fluid d-block mx-auto" width="60" height="60" src="https://img.stackshare.io/service/6727/css.png">
+                            <img class="img-fluid d-block mx-auto" width="60" src="https://img.stackshare.io/service/6727/css.png">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
-                        <div class="px-4 py-5 card mx-0 shadow">
+                        <div class="px-4 py-5 mt-2 mb-2 card mx-0 shadow">
                             <h3>Bootstrap</h3>
                             <img class="img-fluid d-block mx-auto" width="60" src="https://img.stackshare.io/service/1101/C9QJ7V3X.png">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
-                        <div class="px-4 py-5 card mx-0 shadow">
+                        <div class="px-4 py-5 mt-2 mb-2 card mx-0 shadow">
                             <h3>jQuery</h3>
                             <img class="img-fluid d-block mx-auto" width="60" src="https://img.stackshare.io/service/1209/javascript.jpeg">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
-                        <div class="px-4 py-5 card mx-0 shadow">
+                        <div class="px-4 py-5 mt-2 mb-2 card mx-0 shadow">
                             <h3>Larabel</h3>
                             <img class="img-fluid d-block mx-auto" width="60" src="https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
-                        <div class="px-4 py-5 card mx-0 shadow">
+                        <div class="px-4 py-5 mt-2 mb-2 card mx-0 shadow">
                             <h3>MySQL</h3>
                             <img class="img-fluid d-block mx-auto" width="60" src="https://img.stackshare.io/service/1025/logo-mysql-170x170.png">
                         </div>
                     </div>
                 </div>
-                <div class="row mt-4">
+                <div class="row mt-2 pb-5">
                     <div class="col-sm-2 col-6 text-center">
-                        <div class="px-4 py-5 card mx-0 shadow">
+                        <div class="px-4 py-5 mt-2 mb-2 card mx-0 shadow">
                             <h3>Git</h3>
                             <img class="img-fluid d-block mx-auto" width="60" src="https://img.stackshare.io/service/1046/git.png">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
-                        <div class="px-4 py-5 card mx-0 shadow">
+                        <div class="px-4 py-5 mt-2 mb-2 card mx-0 shadow">
                             <h3>GitHub</h3>
                             <img class="img-fluid d-block mx-auto" width="60" src="https://img.stackshare.io/service/27/sBsvBbjY.png">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
-                        <div class="px-4 py-5 card mx-0 shadow">
+                        <div class="px-4 py-5 mt-2 mb-2 card mx-0 shadow">
                             <h3>MariaDB</h3>
                             <img class="img-fluid d-block mx-auto" width="60" src="https://img.stackshare.io/service/1615/mariadb-logo-400x400.png">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
-                        <div class="px-4 py-5 card mx-0 shadow">
+                        <div class="px-4 py-5 mt-2 mb-2 card mx-0 shadow">
                             <h3>Heidi SQL</h3>
                             <img class="img-fluid d-block mx-auto" width="60" src="https://img.stackshare.io/service/4770/1338505.png">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
-                        <div class="px-4 py-5 card mx-0 shadow">
+                        <div class="px-4 py-5 mt-2 mb-2 card mx-0 shadow">
                             <h3>VS Code</h3>
                             <img class="img-fluid d-block mx-auto" width="60" src="https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
-                        <div class="px-4 py-5 card mx-0 shadow">
+                        <div class="px-4 py-5 mt-2 mb-2 card mx-0 shadow">
                             <h3>Xampp</h3>
                             <img class="img-fluid d-block mx-auto" width="60" src="https://img.stackshare.io/service/1631/XAMPP_128.png">
                         </div>
@@ -150,29 +155,29 @@
                 </div>
             </div>
         </section>
-        <section id="idiomas" class="fondo-gris">
+        <section id="idiomas">
             <div class="container" class="bg-gris">
                 <did class="row">
-                    <div class="col-sm-6 col-12">
+                    <div class="col-sm-6 col-12 mt-3">
                         <div class="card shadow">
                             <div class="row">
-                                <div class="col-4 text-center bg-purpura card">
+                                <div class="col-4 sm-col-3 text-center bg-purpura card">
                                     <i class="fas fa-comment-alt"></i>
                                 </div>
-                                <div class="col-8">
+                                <div class="col-8 sm-col-9 idioma">
                                     <h2>IDIOMAS</h2>
                                     <p>INGLÉS-Elementary <br>ESPAÑOL-Nativo</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-6">
+                    <div class="col-sm-6 col-12 mt-3">
                         <div class="card shadow">
                             <div class="row">
-                                <div class="col-4 text-center bg-purpura card">
+                                <div class="col-4 sm-col-3 text-center bg-purpura card">
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <div class="col-8">
+                                <div class="col-8 sm-col-9 hobie">
                                     <h2>HOBIES</h2>
                                     <p>Películas<br>Andar en bicicltea</p>
                                 </div>
@@ -181,13 +186,30 @@
                     </div>
                 </did>
             </div>
-
         </section>
         <section id="experiencia">
             <div class="container mt-3 mb-3">
-                <i class="fas fa-briefcase"></i>
-                <h2>Experiencia laboral</h2>
-            </div>
+                <div class="row">
+                    <div>
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div>
+                        <h2>Experiencia laboral</h2>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="row card">
+                        <h2>Proyecto Integrador</h2>
+                        <div class="col-12 py-3">
+                            <p>Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS, Mercadopago con panel administrador, gestor de usuarios, módulo de permisos y funcionalidades a fines.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="" class="btnempresa" target="_blank">Ver online</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </section>
         <section id="estudios">
             <div class="container mt-3 mb-3">

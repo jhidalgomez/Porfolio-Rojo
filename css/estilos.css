@@ -40,12 +40,12 @@ p{
 /* Navegador */
 nav .nav-link{
     color: #282828;
+    padding: 2px 15px !important;
 }
 nav .active{
-    border: 1px solid #E20000;
+    border: 2px solid #E20000;
     font-size: 15px;
     border-radius: 20px;
-    padding: 5px 20px;
     font-weight: 100;
 }
 nav .CV{
@@ -265,46 +265,32 @@ p.trabajos{
     color: #282828;
     font-weight: 300;
 }
-#tecnologias{
+#tecnologias, .{
     margin-top: 10px;
     padding-bottom: 100px;
 }
-#sobre-mi a{
+#sobre-mi .iconos i{
     color: #E20000;
     font-weight: 100;
     font-size: 14px;
     margin: 0px;
 }
-#sobre-mi a:hover{
-    text-decoration: underline;
-    color: white; 
-}
-#sobre-mi .fa-linkedin-in {
-    color: #ff4a49;
-    background-color: white;
-    font-size: 20px;
-    border: 0px;
-    height: 32px;
-    width: 32px;
-    text-align: center;
-    padding: 6px 0 0 0;
-    border-radius: 80px;
-    margin: 0 10px;
-}
-#sobremi a.fa-github{
-    font-size: 30px;
-    color: white;
-}
+
 #sobremi .img-circle {
     margin: 1em auto;
     display: block;
+    height: auto;
+    width: 80%;
     background-color: #fff;
-    padding: 10px;
     border-radius: 50%;
 }
 #idiomas, #experiencia, #estudios{
     padding-top: 60px;
     padding-bottom: 60px;
+
+}
+#idiomas{
+    background-color:#ededed;
 }
 #idiomas .bg-purpura {
     background-color: #370A6D;
@@ -315,10 +301,20 @@ p.trabajos{
 }
 #idiomas h2{
     font-size: 17px;
+    font-weight: bold;
 }
-.fondo-gris{
-    background-color: #ededed;
+#idiomas .card{
+    height: 140px;
+    border-radius: 20px;
 }
+#idiomas .hobie,.idioma{
+    margin-top: 30px;
+}
+
+#experiencia{
+    background-color: white;
+}
+
 
 
 
