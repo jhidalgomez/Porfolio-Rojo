@@ -46,31 +46,43 @@
             </nav>
         </div>
     </header>
-    <main>
-        <div class="container">
-            
-
-
-
-
-            
-
-        </div>   
+    <main class="contenido">
+    <div class="container">
+                <div class="row">
+                    <div class="col-8 col-sm-8 py-2 px-0 shadow" id="inputSearchContainer">
+                        <div class="row">
+                            <div class="col-12 col-sm-11 text-center">
+                                <div id="inputSearch">
+                                    Hola mi nombre es <span>José</span>, soy desarrollador full stack.
+                                </div>
+                            </div>
+                            <div class="col-sm-1">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 my-5 text-center">
+                        <a href="proyectos.php" class="btn">MIRÁ MI TRABAJO</a>
+                    </div>
+                </div>
+            </div>  
     </main>
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-3">
+            <div class="row mt-5">
+                <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                     <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/nelson-daniel-tarche/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
                 </div>
-                <div class="col-3">
+                <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                         Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
                 </div>
-                <div class="col-3">
+                <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                     <a href="mailto:info@depcsuite.com">info@depcsuite</a>
                 </div>
-                <div class="col-3 text-right">
+                <div class="col-sm-3 col-12 text-sm-right text-right pb-sm-0 pb-3 pb-sm-0 pb-3">
                     <a href="https://api.whatsapp.com/send?phone=541168567414" target="_blank" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>

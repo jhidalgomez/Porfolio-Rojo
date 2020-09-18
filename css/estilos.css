@@ -27,7 +27,11 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
+    margin:0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 h1{
     color: #E20000;
@@ -71,13 +75,13 @@ nav .CV{
 
 
 /* Contacto */
-#contacto main{
-    height: 80vh;
-}
+
 #contacto{
     background-image: url(../images/fondo-contacto.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    height: 90vh; 
+    background-size: cover;
 } 
 textarea{
         height: 150px !important;
@@ -104,11 +108,13 @@ button.btn:hover{
 
 
 /* Footer */
+
 footer, footer a {
     color: white;
     font-weight: 100;
     font-size: 14px;
     margin: 0px;
+    
 }
 footer a:hover{
     text-decoration: underline;
@@ -122,7 +128,7 @@ footer .fa-linkedin-in {
     height: 32px;
     width: 32px;
     text-align: center;
-    padding: 6px 0 0 0;
+    padding: 9px 0 0 0;
     border-radius: 80px;
     margin: 0 10px;
 }
@@ -184,11 +190,8 @@ footer .fa-whatsapp{
     background-image: url(../images/fondo_sobremi_proyectos.png);
     background-size: 100%;
     background-repeat: no-repeat; 
-    height: 80vh; 
+    height: 90vh; 
     background-size: cover;
-}
-.box-shadow {
-    border-radius: 15px;
 }
 #proyectos img { 
     width: max-content;
@@ -209,8 +212,8 @@ p.trabajos{
     font-size:15px ;
     font-weight: 600;
 }
-#proyectos .card{
-
+#proyectos .link-rojo{
+    color: #E20000;
 }
 #proyectos .btn{
     background-color: #E20000;
@@ -241,11 +244,14 @@ p.trabajos{
     padding: 0px;
     margin: 0px;  
 }
+#proyectos .card{
+    border-radius: 25px;
+}
 
 
 
 /** Sobre mi **/
-#sobremi,{
+#sobremi{
     background-image: url(../images/fondo_sobremi_proyectos.png);
     background-size: 100%;
     background-repeat: no-repeat; 
@@ -269,25 +275,37 @@ p.trabajos{
     margin-top: 10px;
     padding-bottom: 100px;
 }
-#sobre-mi .iconos i{
-    color: #E20000;
-    font-weight: 100;
-    font-size: 14px;
-    margin: 0px;
+.iconos a {
+    color: #E20000 !important;
+    font-weight: 100 !important;
+    font-size: 33px !important;
+}
+.iconos .fa-linkedin-in {
+        color: white !important;
+        background-color:#E20000!important;
+        font-size: 20px;
+        border: 0px;
+        height: 32px;
+        width: 32px;
+        text-align: center;
+        padding: 9px 0 0 0;
+        border-radius: 80px;
+        margin: 0 10px;
 }
 
-#sobremi .img-circle {
-    margin: 1em auto;
-    display: block;
-    height: auto;
-    width: 80%;
-    background-color: #fff;
-    border-radius: 50%;
+#sobremi .img-perfil {
+    margin: 1em auto !important;
+    display: block !important;
+    height: auto !important;
+    width: 100% !important;
+    background-color: #fff !important;
+    border: 0px solid !important;
+    border-radius: 50% !important;
 }
+
 #idiomas, #experiencia, #estudios{
     padding-top: 60px;
     padding-bottom: 60px;
-
 }
 #idiomas{
     background-color:#ededed;
@@ -304,31 +322,161 @@ p.trabajos{
     font-weight: bold;
 }
 #idiomas .card{
-    height: 140px;
+    height: 180px;
     border-radius: 20px;
 }
 #idiomas .hobie,.idioma{
     margin-top: 30px;
+    
 }
-
+#experiencia, #estudios p{
+    font-size: 14px;
+}
 #experiencia{
     background-color: white;
 }
+#experiencia .img-circle{
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 80%  
+}
+#experiencia i{
+    font-size: 60px;
+    color: #370a6d;
+    padding-bottom: 32px;
+}
+#experiencia h2{
+    color: #370A6D;
+    padding-top: 15px;
+}
+#experiencia .btnempresa{
+    background-color: #370A6D;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 100;
+}
+#experiencia .nombre-cargo {
+    color: #6a6a6a;
+    font-size: 21px;
+    font-weight: Bold;
+    padding-top: 20px;
+}
 
+#experiencia .nombre-empresa {
+    color: #370a6d;
+    font-size: 17px;
+    font-weight: Bold;
+}
 
+#experiencia .tiempo {
+    color: #6a6a6a;
+    font-size: 15px;
+    font-weight: 300;
+}
 
+#experiencia p {
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+}
+#experiencia .card{
+    border-radius: 25px;
+}
 
+#estudios{
+    background-color: #ededed;
+}
+#estudios i{
+    font-size: 60px;
+    color:red;
+    padding-bottom: 32px;
+}
+#estudios .img-circle{
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 80%  
+}
+#estudios h2{
+    color: red;
+    padding-top: 15px;
+}
+#estudios .btnempresa{
+    background-color: #E20000;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 100;
+}
+#estudios .nombre-cargo {
+    color: #6a6a6a;
+    font-size: 21px;
+    font-weight: Bold;
+    padding-top: 20px;
+}
 
+#estudios .nombre-empresa {
+    color: #E20000;
+    font-size: 17px;
+    font-weight: Bold;
+}
 
+#estudios .tiempo {
+    color: #6a6a6a;
+    font-size: 15px;
+    font-weight: 300;
+}
 
-
-
-
-
+#estudios p {
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+}
+#estudios .card{
+    border-radius: 25px;
+}
 
 #inicio{
     background-image: url(../images/fondo_inicio.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 81vh;   
+    background-color: red;
+    margin:0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;  
+}
+#inicio #inputSearchContainer {
+    font-size: 22px;
+    font-family: "Montserrat";
+    font-weight: 100;
+    border: 2px solid #fff !important;
+    height: max-content;
+    border-radius: 50px;
+    margin: 70vh auto 0 auto;
+    color: #fff;
+}
+
+#inicio .btn {
+    background-color: #fff;
+    color: #370A6D;
+    padding: 13px 20px;
+    margin: 0 auto 50px auto;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    transition: background-color 0.5s ease;
+}
+
+#inicio .btn:hover {
+    background-color: #370A6D;
+    color: #fff;
+    border-radius: 50;
+}
+
+#inicio span{
+    font-weight: bold;
 }

@@ -94,7 +94,7 @@
                     <a href="https://api.whatsapp.com/send?phone=541168567414" target="_blank" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
-        </div>      
+        </div>  
     </footer> 
 </body>
 </html>

@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item pr-5">
-                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item pr-5">
                             <a class="nav-link active" href="sobre mi.php">Sobre mí</a>
@@ -55,18 +55,18 @@
                         piezas gráficas.
                         .</p>
                     <div class="row pb-4">
-                        <div class="iconos col-12 text-center col-sm-6">
+                        <div class="iconos col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                             <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
                             <a href="https://www.linkedin.com" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
                         </div>
-                        <div class=" col-12 text-center col-sm-6">
+                        <div class=" col-12 text-center col-sm-6 mt-3">
                             <a href="files/Jose Hidalgo CV.pdf" class="CV" target="_blank">Descargar mi CV <i class="fas fa-file-download"></i></a>
                         </div>
                     </div>
 
                 </div>
                 <div class="col-sm-3 col-12 mt-4 offset-sm-2">
-                    <img src="images/foto.jpg" alt="Jose Hidalgo" title="Jose Hidalgo" class="img-fluid img-circle">
+                    <img src="images/foto.jpg" alt="Jose Hidalgo" title="Jose Hidalgo" class="img-fluid img-perfil">
                 </div>
             </div>
         </div>
@@ -158,9 +158,9 @@
         <section id="idiomas">
             <div class="container" class="bg-gris">
                 <did class="row">
-                    <div class="col-sm-6 col-12 mt-3">
+                    <div class="col-sm-6 col-12 mt-2">
                         <div class="card shadow">
-                            <div class="row">
+                            <div class="row mx-0">
                                 <div class="col-4 sm-col-3 text-center bg-purpura card">
                                     <i class="fas fa-comment-alt"></i>
                                 </div>
@@ -171,9 +171,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-12 mt-3">
+                    <div class="col-sm-6 col-12 mt-2">
                         <div class="card shadow">
-                            <div class="row">
+                            <div class="row mx-0">
                                 <div class="col-4 sm-col-3 text-center bg-purpura card">
                                     <i class="fas fa-star"></i>
                                 </div>
@@ -188,62 +188,141 @@
             </div>
         </section>
         <section id="experiencia">
-            <div class="container mt-3 mb-3">
+            <div class="container">
                 <div class="row">
-                    <div>
+                    <div class="col-2 text-center">
                         <i class="fas fa-briefcase"></i>
                     </div>
-                    <div>
+                    <div class="col-10 px-5 px-sm-1">
                         <h2>Experiencia laboral</h2>
                     </div>
                 </div>
-                <div class="col-sm-6 col-12">
-                    <div class="row card">
-                        <h2>Proyecto Integrador</h2>
-                        <div class="col-12 py-3">
-                            <p>Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS, Mercadopago con panel administrador, gestor de usuarios, módulo de permisos y funcionalidades a fines.</p>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <a href="" class="btnempresa" target="_blank">Ver online</a>
+                <div class="row">
+                    <div class="row col-12 col-sm-6 mb-2 mt-2 mx-0">
+                        <div class="card shadow">
+                            <div class="row mx-0">
+                                <div class="col-4 text-center mt-4">
+                                    <img src="images/frappelogo.png" alt="frappe" class="img-fluid img-circle">
+                                </div>
+                                <div class="col-8">
+                                        <div class="col-12">
+                                            <h3 class="nombre-cargo">Asistente de Markeing</h4>
+                                            <h4 class="nombre-empresa">Frapper SRL</h5>
+                                            <h4 class="tiempo">SEP 2020 - PRESENTE</h3>
+                                            <p class="tareas">
+                                            Dar soporte en la elaboración de piezas gráficas y audio visuales, que son compartidas en las redes sociales de la empresa Desarrollo de piezas graficas institucionales, utilizadas en diferentes departamentos de la compañía. 
+                                            </p>
+                                        </div>
+                                    <div class="col-12 text-right mt-4 mb-4">
+                                        <a href="" class="btnempresa" target="_blank">VER EMPRESA</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="row col-12 col-sm-6 mb-2 mt-2 mx-0">
+                        <div class="card shadow">
+                            <div class="row mx-0">
+                                <div class="col-4 text-center mt-4">
+                                    <img src="images/frappelogo.png" alt="frappe" class="img-fluid img-circle">
+                                </div>
+                                <div class="col-8">
+                                        <div class="col-12">
+                                            <h3 class="nombre-cargo">Asistente de Markeing</h4>
+                                            <h4 class="nombre-empresa">Frapper SRL</h5>
+                                            <h4 class="tiempo">SEP 2020 - PRESENTE</h3>
+                                            <p class="tareas">
+                                            Dar soporte en la elaboración de piezas gráficas y audio visuales, que son compartidas en las redes sociales de la empresa Desarrollo de piezas graficas institucionales, utilizadas en diferentes departamentos de la compañía. 
+                                            </p>
+                                        </div>
+                                    <div class="col-12 text-right mt-4 mb-4">
+                                        <a href="" class="btnempresa" target="_blank">VER EMPRESA</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
                 </div>
         </section>
-        <section id="estudios">
-            <div class="container mt-3 mb-3">
-                <i class="fas fa-graduation-cap"></i>
-                <h2>Estudios</h2>
-            </div>
+        <section id="estudios" class="bg-gris">
+        <div class="container">
+                <div class="row">
+                    <div class="col-2 text-center">
+                         <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="col-10 px-5 px-sm-1">
+                        <h2>Estudios</h2>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="row col-12 col-sm-6 mb-2 mt-2 mx-0">
+                        <div class="card shadow">
+                            <div class="row mx-0">
+                                <div class="col-4 text-center mt-4">
+                                    <img src="images/frappelogo.png" alt="frappe" class="img-fluid img-circle">
+                                </div>
+                                <div class="col-8">
+                                        <div class="col-12">
+                                            <h3 class="nombre-cargo">Asistente de Markeing</h4>
+                                            <h4 class="nombre-empresa">Frapper SRL</h5>
+                                            <h4 class="tiempo">SEP 2020 - PRESENTE</h3>
+                                            <p class="tareas">
+                                            Dar soporte en la elaboración de piezas gráficas y audio visuales, que son compartidas en las redes sociales de la empresa Desarrollo de piezas graficas institucionales, utilizadas en diferentes departamentos de la compañía. 
+                                            </p>
+                                        </div>
+                                    <div class="col-12 text-right mt-4 mb-4">
+                                        <a href="" class="btnempresa" target="_blank">VER EMPRESA</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row col-12 col-sm-6 mb-2 mt-2 mx-0">
+                        <div class="card shadow">
+                            <div class="row mx-0">
+                                <div class="col-4 text-center mt-4">
+                                    <img src="images/frappelogo.png" alt="frappe" class="img-fluid img-circle">
+                                </div>
+                                <div class="col-8">
+                                        <div class="col-12">
+                                            <h3 class="nombre-cargo">Asistente de Markeing</h4>
+                                            <h4 class="nombre-empresa">Frapper SRL</h5>
+                                            <h4 class="tiempo">SEP 2020 - PRESENTE</h3>
+                                            <p class="tareas">
+                                            Dar soporte en la elaboración de piezas gráficas y audio visuales, que son compartidas en las redes sociales de la empresa Desarrollo de piezas graficas institucionales, utilizadas en diferentes departamentos de la compañía. 
+                                            </p>
+                                        </div>
+                                    <div class="col-12 text-right mt-4 mb-4">
+                                        <a href="" class="btnempresa" target="_blank">VER EMPRESA</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>      
         </section>
-
-
-
-
-
-
-
-
-
     </main>
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-3">
+            <div class="row mt-5">
+                <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                     <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/nelson-daniel-tarche/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
                 </div>
-                <div class="col-3">
-                    Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
+                <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
+                        Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
                 </div>
-                <div class="col-3">
+                <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                     <a href="mailto:info@depcsuite.com">info@depcsuite</a>
                 </div>
-                <div class="col-3 text-right">
+                <div class="col-sm-3 col-12 text-sm-right text-right pb-sm-0 pb-3 pb-sm-0 pb-3">
                     <a href="https://api.whatsapp.com/send?phone=541168567414" target="_blank" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
-        </div>
+        </div>  
     </footer>
 </body>

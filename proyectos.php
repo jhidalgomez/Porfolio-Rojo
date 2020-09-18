@@ -63,7 +63,7 @@
             </div>
             <div class="row">
             	<div class="col-sm-4 col-12">
-            		<div class="row card m-1">
+            		<div class="row card shadow m-1">
             			<img src="images/abmclientes.png" alt="ABM Clientes" title="ABM Clientes" class="img-fluid">
             			<div class="col-12 color-gradiente py-3">
             				<h2>ABM Clientes</h2>
@@ -82,7 +82,7 @@
             		</div>
                 </div>
             	<div class="col-sm-4 col-12">
-            		<div class="row card m-1">
+            		<div class="row card shadow m-1">
             			<img src="images/abmventas.png" alt="ABM Clientes" title="ABM Clientes" class="img-fluid">
             			<div class="col-12 color-gradiente py-3">
             				<h2>Sistema de gestión de ventas</h2>
@@ -101,7 +101,7 @@
             		</div>
                 </div>
             	<div class="col-sm-4 col-12">
-            		<div class="row card m-1">
+            		<div class="row card shadow m-1">
             			<img src="images/sistema-admin.png" alt="ABM Clientes" title="ABM Clientes" class="img-fluid">
             			<div class="col-12 color-gradiente py-3">
             				<h2>Proyecto Integrador</h2>
