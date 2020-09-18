@@ -190,7 +190,7 @@ footer .fa-whatsapp{
     background-image: url(../images/fondo_sobremi_proyectos.png);
     background-size: 100%;
     background-repeat: no-repeat; 
-    height: 90vh; 
+    
     background-size: cover;
 }
 #proyectos img { 
@@ -275,6 +275,18 @@ p.trabajos{
     margin-top: 10px;
     padding-bottom: 100px;
 }
+#sobre-mi .tecno {
+    filter: grayscale(100%);
+}
+
+#sobre-mi .tecno:hover {
+    filter: grayscale(0);
+}
+#sobre-mi h2 {
+    
+    font-size: 25px;
+}
+
 .iconos a {
     color: #E20000 !important;
     font-weight: 100 !important;
@@ -302,6 +314,7 @@ p.trabajos{
     border: 0px solid !important;
     border-radius: 50% !important;
 }
+
 
 #idiomas, #experiencia, #estudios{
     padding-top: 60px;
