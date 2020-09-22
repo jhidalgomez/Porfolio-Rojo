@@ -78,10 +78,11 @@ nav .CV{
 
 #contacto{
     background-image: url(../images/fondo-contacto.png);
-    background-size: 100%;
-    background-repeat: no-repeat; 
-    height: 100vh; 
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;  
+  
 } 
 #contacto main{
     height: 100vh;
@@ -191,10 +192,11 @@ footer .fa-whatsapp{
 /** Proyectos **/
 #proyectos{
     background-image: url(../images/fondo_sobremi_proyectos.png);
-    background-size: 100%;
-    background-repeat: no-repeat; 
-    
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;  
+  
 }
 #proyectos img { 
     width: max-content;
@@ -256,10 +258,11 @@ p.trabajos{
 /** Sobre mi **/
 #sobremi{
     background-image: url(../images/fondo_sobremi_proyectos.png);
-    background-size: 100%;
-    background-repeat: no-repeat; 
-    height: 81vh; 
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;  
+  
 }
 .CV{
     background-color: #E20000;
@@ -462,21 +465,20 @@ p.trabajos{
     background-attachment: fixed;  
   
 }
-#inicio #inputSearchContainer {
+#inicio #barraNombre {
     font-size: 22px;
     font-family: "Montserrat";
     font-weight: 100;
     border: 2px solid #fff !important;
-    height: max-content;
     border-radius: 50px;
-    margin: 70vh auto 0 auto;
+    margin: 50vh auto 0 auto;
     color: #fff;
 }
 
 #inicio .btn {
     background-color: #fff;
     color: #370A6D;
-    padding: 13px 20px;
+    padding: 8px 11px;
     margin: 0 auto 50px auto;
     border-radius: 50px;
     font-size: 18px;
@@ -492,7 +494,4 @@ p.trabajos{
 
 #inicio span{
     font-weight: bold;
-}
-#contacto main{
-    height: 100vh;
 }

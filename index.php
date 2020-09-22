@@ -49,16 +49,13 @@
     <main class="contenido">
     <div class="container">
                 <div class="row">
-                    <div class="col-8 col-sm-8 py-2 px-0 shadow" id="inputSearchContainer">
+                    <div class="col-8 col-sm-8 py-2 shadow" id="barraNombre">
                         <div class="row">
-                            <div class="col-12 col-sm-11 text-center">
-                                <div id="inputSearch">
-                                    Hola mi nombre es <span>José</span>, soy desarrollador full stack.
-                                </div>
+                            <div class="col-10 sm-8 text-center">
+                                Hola mi nombre es <span>José</span>, soy desarrollador full stack. |
                             </div>
-                            <div class="col-sm-1">
-                                <i class="fas fa-search"></i>
-                            </div>
+                            
+                        
                         </div>   
                     </div>
                 </div>
