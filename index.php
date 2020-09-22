@@ -49,10 +49,10 @@
     <main class="contenido">
     <div class="container">
                 <div class="row">
-                    <div class="col-8 col-sm-8 py-2 shadow" id="barraNombre">
+                    <div class="col-11 col-sm-8 py-2 shadow" id="barraNombre">
                         <div class="row">
-                            <div class="col-10 sm-8 text-center">
-                                Hola mi nombre es <span>José</span>, soy desarrollador full stack. |
+                            <div class="col-12 sm-12 text-center">
+                                Hola mi nombre es <span>José</span>, soy desarrollador full stack. | <i class="fas fa-search"></i>
                             </div>
                             
                         
