@@ -6,10 +6,10 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item pr-5">
-                <a class="nav-link <?php echo $pg == "inicio" ? "active" : ""; ?>" href="index.php">Inicio</a>
+                <a class="nav-link <?php echo $pg == "index" ? "active" : ""; ?>" href="index.php">Inicio</a>
             </li>
             <li class="nav-item pr-5">
-                <a class="nav-link <?php echo $pg == "sobre-mi" ? "active" : ""; ?>" href="sobre mi.php">Sobre mí</a>
+                <a class="nav-link <?php echo $pg == "sobre mi" ? "active" : ""; ?>" href="sobre mi.php">Sobre mí</a>
             </li>
             <li class="nav-item pr-5">
                 <a class="nav-link <?php echo $pg == "proyectos" ? "active" : ""; ?>" href="proyectos.php">Proyectos</a>

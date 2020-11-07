@@ -34,9 +34,9 @@ if($_POST){ /* es postback */
         $mail->addBCC("jhidalgomez@gmail.com"); //Copia oculta
         $mail->Subject = utf8_decode("Contacto página Web");
         $mail->Body = "Recibimos tu consulta, te responderemos a la brevedad.";
-        if(!$mail->Send()){ //cuando este en el servidor descomentar
+        /*if(!$mail->Send()){ //cuando este en el servidor descomentar
             $msg = "Error al enviar el correo, intente nuevamente mas tarde.";
-        }
+        }*/
         $mail->ClearAllRecipients(); //Borra los destinatarios
 
         //Envía ahora un correo a nosotros con los datos de la persona
@@ -44,11 +44,11 @@ if($_POST){ /* es postback */
         $mail->Subject = utf8_decode("Recibiste un mensaje desde tu página Web");
         $mail->Body = "Te escribio $nombre cuyo correo es $correo, con el asunto $asunto y el siguiente mensaje:<br><br>$mensaje";
        
-        if($mail->Send()){ /* Si fue enviado correctamente redirecciona */
+        //if($mail->Send()){ /* Si fue enviado correctamente redirecciona */
             header('Location: confirmacion-envio.php');
-        } else {
+        //} else {
             $msg = "Error al enviar el correo, intente nuevamente mas tarde.";
-        }    
+        //}    
     } else {
         $msg = "Complete todos los campos";
     }
@@ -67,7 +67,7 @@ if($_POST){ /* es postback */
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Confirmacion de envio</title>
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">  
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
