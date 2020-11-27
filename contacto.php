@@ -75,6 +75,7 @@ if($_POST){ /* es postback */
     <script src="css/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body id="contacto">
@@ -108,7 +109,10 @@ if($_POST){ /* es postback */
                     
                         <div class="text-right">
                             <button type="submit" class="btn">ENVIAR</button>
+                            <div class="g-recaptcha capchat" data-sitekey="your_site_key">
                         </div>
+                        </div>
+                    
                     </form>
                 </div>
             </div>
